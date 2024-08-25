@@ -1,5 +1,5 @@
 # Used by `image`, `push` & `deploy` targets, override as required
-IMAGE_REG ?= docker login docker.io
+IMAGE_REG ?=login docker.io
 IMAGE_REPO ?= adevnture/python-webapp
 IMAGE_TAG ?= latest
 
